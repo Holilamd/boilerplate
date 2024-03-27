@@ -1,4 +1,4 @@
 package com.example.demo.entity;
 
-public class MProjectDtl {
+public class Project {
 }
