@@ -35,6 +35,7 @@ public class FileProcessingService {
                 Integer i = 0;
                 while ((line = reader.readLine()) != null) {
                     i++;
+                    log.info("row : {} data {}",i,line);
                     searchRowError(line, i);
                 }
                 if (req.isMoveFile()){
