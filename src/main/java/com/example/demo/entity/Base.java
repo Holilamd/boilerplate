@@ -18,7 +18,7 @@ public class Base {
     @Column(length = 80)
     String status;
 
-    LocalDateTime created_at;
+    LocalDateTime created_at = LocalDateTime.now();
 
     LocalDateTime updated_at;
 
